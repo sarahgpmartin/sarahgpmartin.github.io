@@ -27,3 +27,49 @@ body {
     left: 50px;
 }
 
+/* ----- ----- ----- ----- ----- DESKTOP NAVIGATION SECTION ----- ----- ----- ----- ----- */
+
+nav {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    padding: 25px 50px;
+    margin: 0;
+
+    align-items: right;
+    justify-content: right;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-family: "Playfair Display" , serif;
+    letter-spacing: 5px;
+    font-size: 15px;
+  }
+  
+  nav .contact {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    color: #f2f2f2;
+    border: 3px solid #f2f2f2;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+  }
+

@@ -181,7 +181,58 @@ nav {
     margin-bottom: 25px
 }
 
-  /* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
+/* ----- ----- ----- ----- ----- HATS SECTION ----- ----- ----- ----- ----- */
+
+#hats {
+  background-color: #DBD3CD;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+#hats h1 {
+  font-family: "freehouse", Georgia , serif;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  color: #261E1A;
+  text-align: center;
+}
+
+.hat-filters {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hat-filters button {
+  background: transparent;
+  color: #261E1A;
+  border: none;
+  padding: 10px 15px;
+  font-family: "Georgia", serif;
+  font-weight: normal;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.hat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.hat-grid img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
 
   footer {
     background-color: #261E1A;

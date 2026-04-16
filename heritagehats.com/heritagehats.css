@@ -109,6 +109,8 @@ nav {
     font-weight: bold;
     font-style: normal;
     color: #261E1A;
+    margin-top: 25px;
+    margin-bottom: 0px
   }
 
   #about p {
@@ -116,7 +118,41 @@ nav {
     font-size: 15px;
     color: #261E1A;
     width: 50%;
+    margin-top: 5px;
+    margin-bottom: 25px
+
+
   }
+
+  .learn-more-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line1 {
+    height: 3px;
+    width: 100%;
+    background-color: #2B211D;
+}
+
+.line2 {
+  height: 3px;
+  width: 5%;
+  background-color: #2B211D;
+}
+
+.learn-more {
+    text-decoration: none;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #2B211D;
+    letter-spacing: 5px;
+    text-align: center;
+    white-space: nowrap;
+    padding: 5px 10px;
+}
 
   /* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
 

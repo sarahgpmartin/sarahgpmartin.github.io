@@ -1,1 +1,94 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Georgia', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+/* ----- ----- ----- ----- ----- HEADER SECTION ----- ----- ----- ----- ----- */
+
+header {
+    background-color: #F2F2F2;
+}
+
+/* ----- ----- ----- ----- ----- HERO-IMAGE SECTION ----- ----- ----- ----- ----- */
+
+.hero-section img{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section h2{
+    font-family: "freehouse", Georgia , serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #DBD3CD;
+    padding: 25px 25px;
+}
+
+/* ----- ----- ----- ----- ----- DESKTOP NAVIGATION SECTION ----- ----- ----- ----- ----- */
+
+nav {
+    background-color: #261E1A;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    padding: 25px 50px; 
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #DBD3CD;
+    font-family: "Georgia" , serif;
+    letter-spacing: 5px;
+    font-size: 15px;
+  }
+  
+  nav .shop {
+    font-family: "freehouse", Georgia , serif;
+    color: #DBD3CD;
+    border: 3px solid #DBD3CD;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+  
+  }
+
+  /* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
+
+  footer {
+    background-color: #261E1A;
+    padding: 25px;
+  }
+
+    footer h1 {
+        font-family: "freehouse", Georgia , serif;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: normal;
+        color: #DBD3CD;
+    }
+
+    footer p {
+        font-family: "Georgia", serif;
+        font-size: 15px;
+        color: #DBD3CD;
+    }
+
+    footer .footer-info {
+        columns: 2;
+        display: flex;
+        column-gap: 25px;
+    }
 

@@ -55,7 +55,48 @@ nav ul {
     font-weight: bold;
   }
 
-  /* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
+/* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
+
+#about {
+    background-color: #F8F6FB;
+    margin-top: 100px;
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+#about h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+
+    color: #060408;
+    text-align: left;
+    margin: 0px;
+}
+
+#about h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+
+    color: rgba(6, 4, 8, 0.5);
+    text-align: left;
+    margin: 0px;
+}
+
+#about p {
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+    color: #060408;
+    text-align: left;
+}
+
+
+
+/* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
 
 footer {
     background-color: #7851A9;

@@ -1,11 +1,14 @@
 /* ----- ----- ----- ----- ----- BODY SECTION ----- ----- ----- ----- ----- */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Playfair Display", serif;
-    background-color: #F8F6FB;
+  font-family: 'Playfair Display', serif;
+  background-color: #F8F6FB;
+  margin: 0;
+  padding: 0;
 }
 
 /* ----- ----- ----- ----- ----- HERO-IMAGE SECTION ----- ----- ----- ----- ----- */

@@ -222,14 +222,17 @@ nav {
 .hat-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  justify-items: center;
+  gap: 50px;
 }
 
 .hat-grid img {
   width: 300px;
   height: 300px;
   object-fit: cover;
+}
+
+.hat {
+  background: #f2f2f2;
 }
 
 /* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */

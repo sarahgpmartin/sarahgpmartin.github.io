@@ -154,6 +154,33 @@ nav {
     padding: 5px 10px;
 }
 
+/* ----- ----- ----- ----- -----CONTACT SECTION ----- ----- ----- ----- ----- */
+
+#contact {
+    background-color: #CBBCB4;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact h1 {
+    font-family: "freehouse", Georgia , serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    color: #261E1A;
+    text-align: center;
+}
+
+#contact p {
+    font-family: "Georgia", serif;
+    font-size: 15px;
+    color: #261E1A;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 25px
+}
+
   /* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
 
   footer {

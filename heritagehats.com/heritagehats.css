@@ -260,6 +260,7 @@ nav {
         columns: 2;
         display: flex;
         column-gap: 25px;
+        padding: 25px 0px;
     }
 
     footer .copyright {

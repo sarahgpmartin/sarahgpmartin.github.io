@@ -14,20 +14,24 @@ body {
 /* ----- ----- ----- ----- ----- HERO-IMAGE SECTION ----- ----- ----- ----- ----- */
 
 .hero-image {
-    background-image: url("images/SarahMartin3.jpg");
-    background-size: cover;
-    background-position: center;
+  background-image: url("images/SarahMartin3.jpg");
+  background-size: cover;
+  background-position: 70% center;
 
-    width: 100%;
-    height: 1000px;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
 
-    position: relative;
+.hero-logo-img {
+  width: clamp(150px, 30vw, 500px);
+  height: auto;
 }
 
 .hero-logo {
-    position: absolute;
-    bottom: 50px;
-    left: 50px;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
 }
 
 /* ----- ----- ----- ----- ----- DESKTOP NAVIGATION SECTION ----- ----- ----- ----- ----- */

@@ -38,7 +38,7 @@ header {
 
 .hero-text h1 {
     font-family: "freehouse", Georgia , serif;
-    font-size: 50px;
+    font-size: 25px;
     font-weight: bold;
 
     color: #DBD3CD;
@@ -47,7 +47,7 @@ header {
 
 .hero-text p {
     font-family: "Georgia", serif;
-    font-size: 50px;
+    font-size: 25px;
 
     color: #DBD3CD;
     opacity: 50%;

@@ -1,4 +1,3 @@
-
 /* ----- ----- ----- ----- ----- BODY SECTION ----- ----- ----- ----- ----- */
 
 html {
@@ -42,7 +41,7 @@ nav {
   
   nav a {
     text-decoration: none;
-    color: #F8F6FB;
+    color: #060408 ;
     font-family: "Playfair Display" , serif;
     letter-spacing: 5px;
     font-size: 15px;
@@ -51,9 +50,22 @@ nav {
   nav .contact {
     font-family: "Playfair Display", serif;
     font-weight: bold;
-    color: #F8F6FB;
-    border: 3px solid #F8F6FB;
+    color: #060408 ;
+    border: 3px solid #060408 ;
     border-radius: 5px;
     padding: 10px 15px;
     font-weight: bold;
   }
+
+  /* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
+
+/* #F8F6FB WHITE */
+/* #060408 BLACK */
+
+/* #7851A9 ROYAL PURPLE */
+
+/* rgba(120, 81, 169, 0.5) 50% ROYAL PURPLE */
+
+
+/* 3C2955 DARK ROYAL PURPLE */
+/* #BBA8D4 LIGHT ROYAL PURPLE */

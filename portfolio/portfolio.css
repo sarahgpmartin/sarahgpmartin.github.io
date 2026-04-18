@@ -59,6 +59,14 @@ nav .contact {
 
 /* ----- ----- ----- ----- ----- PORTFOLIO SECTION ----- ----- ----- ----- ----- */
 
+.portfolio {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 25px;
+  color: #060408;
+  padding: 50px;
+  text-align: center;
+}
 .portfolio-filters {
   display: flex;
   gap: 25px;
@@ -76,6 +84,8 @@ nav .contact {
   font-size: 15px;
   cursor: pointer;
 }
+
+
 
   /* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
 

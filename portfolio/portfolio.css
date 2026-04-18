@@ -15,88 +15,88 @@ body {
 /* ----- ----- ----- ----- ----- DESKTOP NAVIGATION SECTION ----- ----- ----- ----- ----- */
 
 nav {
-    background: #7851A9;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background: #7851A9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 
-    padding: 25px 50px;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 25px 50px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 nav ul {
-    display: flex;
-    gap: 25px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
   
-  nav a {
-    text-decoration: none;
-    color: #F8F6FB;
-    font-family: "Playfair Display" , serif;
-    letter-spacing: 5px;
-    font-size: 15px;
-  }
+nav a {
+  text-decoration: none;
+  color: #F8F6FB;
+  font-family: "Playfair Display" , serif;
+  letter-spacing: 5px;
+  font-size: 15px;
+}
   
-  nav .contact {
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-    color: #F8F6FB;
-    border: 3px solid #F8F6FB;
-    border-radius: 5px;
-    padding: 10px 15px;
-    font-weight: bold;
-  }
+nav .contact {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #F8F6FB;
+  border: 3px solid #F8F6FB;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
 
   /* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
 
 footer {
-    background-color: #7851A9;
-    padding: 50px; 
-  }
+  background-color: #7851A9;
+  padding: 50px; 
+}
 
 footer h1 {
-    font-family: "Playfair Display", serif;
-    font-size: 15px;
-    font-weight: bold;
-    font-style: normal;
-    color: #F8F6FB;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  color: #F8F6FB;
 }
 
 footer p {
-    font-family: "Playfair Display", serif;
-    font-size: 15px;
-    color: #F8F6FB;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  color: #F8F6FB;
 }
 
 footer .footer-info {
-    columns: 2;
-    display: flex;
-    column-gap: 25px;
-    padding: 25px 0px;
+  columns: 2;
+  display: flex;
+  column-gap: 25px;
+  padding: 25px 0px;
 }
 
 footer ul, li, a {
-    font-family: "Playfair Display", serif;
-    font-size: 15px;
-    color: #F8F6FB;
-    text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  color: #F8F6FB;
+  text-decoration: none;
 
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 footer .copyright {
-    text-align: center;
+  text-align: center;
 }
 
 /* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */

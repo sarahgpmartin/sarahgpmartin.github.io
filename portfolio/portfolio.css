@@ -57,6 +57,26 @@ nav .contact {
   font-weight: bold;
 }
 
+/* ----- ----- ----- ----- ----- PORTFOLIO SECTION ----- ----- ----- ----- ----- */
+
+.portfolio-filters {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-filters button {
+  background: transparent;
+  color: #060408;
+  border: none;
+  padding: 10px 15px;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 15px;
+  cursor: pointer;
+}
+
   /* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
 
 footer {

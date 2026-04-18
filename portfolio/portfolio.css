@@ -7,9 +7,9 @@ html {
 
 body {
   font-family: 'Playfair Display', serif;
+  padding-top: 100px;
   background-color: #F8F6FB;
   margin: 0;
-  padding: 0;
 }
 
 /* ----- ----- ----- ----- ----- DESKTOP NAVIGATION SECTION ----- ----- ----- ----- ----- */

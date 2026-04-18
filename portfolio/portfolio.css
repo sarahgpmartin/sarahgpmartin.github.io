@@ -119,6 +119,20 @@ footer .copyright {
   text-align: center;
 }
 
+/* ----- ----- ----- ----- ----- SPACERS ----- ----- ----- ----- ----- */
+
+.spacer-25 {
+  height: 25px;
+}
+
+.spacer-50 {
+  height: 50px;
+}
+
+.spacer-100 {
+  height: 100px;
+}
+
 /* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
 
 /* #F8F6FB WHITE */

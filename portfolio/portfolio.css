@@ -88,6 +88,12 @@ nav .contact {
 .portfolio-card {
   background-color: #7851A9;
   padding: 25px;
+  min-height: 250px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio-card h1 {

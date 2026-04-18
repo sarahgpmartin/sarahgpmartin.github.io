@@ -67,6 +67,7 @@ nav .contact {
   padding: 50px;
   text-align: center;
 }
+
 .portfolio-filters {
   display: flex;
   gap: 25px;
@@ -85,6 +86,32 @@ nav .contact {
   cursor: pointer;
 }
 
+.portfolio-card {
+  background-color: #7851A9;
+  padding: 25px;
+}
+
+.portfolio-card h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  color: #F8F6FB;
+  text-align: center;
+}
+
+.portfolio-card a {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  color: #F8F6FB;
+  text-decoration: none;
+  text-align: center;
+}
+
+.portfolio-card p {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  color: #F8F6FB;
+  text-align: center;
+}
 
 
   /* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */

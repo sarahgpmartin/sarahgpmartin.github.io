@@ -59,13 +59,20 @@ nav .contact {
 
 /* ----- ----- ----- ----- ----- PORTFOLIO SECTION ----- ----- ----- ----- ----- */
 
-.portfolio {
+#portfolio {
+  align-items: center;
+  justify-content: center;
+}
+
+#portfolio h1 {
   font-family: "Playfair Display", serif;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 25px;
   color: #060408;
   text-align: center;
 }
+
+/* ----- PORTFOLIO FILTER ----- */
 
 .portfolio-filters {
   display: flex;
@@ -84,6 +91,8 @@ nav .contact {
   font-size: 15px;
   cursor: pointer;
 }
+
+/* ----- PORTFOLIO CARD ----- */
 
 .portfolio-card {
   background-color: #7851A9;
@@ -117,6 +126,8 @@ nav .contact {
   color: #F8F6FB;
   text-align: center;
 }
+
+/* ----- PORTFOLIO CARD ----- */
 
 .portfolio-grid {
   display: grid;

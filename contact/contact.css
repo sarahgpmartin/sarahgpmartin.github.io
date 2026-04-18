@@ -56,3 +56,82 @@ nav .contact {
   padding: 10px 15px;
   font-weight: bold;
 }
+
+/* ----- ----- ----- ----- ----- CONTACT SECTION ----- ----- ----- ----- ----- */
+
+#contact {
+  text-align: center;
+}
+
+#contact h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #060408;
+  text-align: center;
+}
+
+#contact p {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #060408;
+  text-align: center;
+}
+
+/* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
+
+footer {
+    background-color: #7851A9;
+    padding: 50px; 
+  }
+
+footer h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    color: #F8F6FB;
+}
+
+footer p {
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+    color: #F8F6FB;
+}
+
+footer .footer-info {
+    columns: 2;
+    display: flex;
+    column-gap: 25px;
+    padding: 25px 0px;
+}
+
+footer ul, li, a {
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+    color: #F8F6FB;
+    text-decoration: none;
+
+    list-style: none;
+    padding: 0;
+}
+
+footer .copyright {
+    text-align: center;
+}
+
+/* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
+
+/* #F8F6FB WHITE */
+/* #060408 BLACK */
+
+/* #7851A9 ROYAL PURPLE */
+
+/* rgba(120, 81, 169, 0.5) 50% ROYAL PURPLE */
+
+
+/* 3C2955 DARK ROYAL PURPLE */
+/* #BBA8D4 LIGHT ROYAL PURPLE */
+
+

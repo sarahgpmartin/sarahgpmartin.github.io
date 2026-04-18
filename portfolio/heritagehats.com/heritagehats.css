@@ -14,50 +14,64 @@ body {
 /* ----- ----- ----- ----- ----- DESKTOP NAVIGATION SECTION ----- ----- ----- ----- ----- */
 
 nav {
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
 
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 
-    padding: 25px 50px;
-    margin: 0;
+  padding: 25px 50px;
+  margin: 0;
 
-    align-items: right;
-    justify-content: right;
-  }
+  align-items: right;
+  justify-content: right;
+}
 
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-    flex-wrap: wrap;
-  }
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #060408 ;
+  font-family: "Playfair Display" , serif;
+  letter-spacing: 5px;
+  font-size: 15px;
+}
   
-  nav a {
-    text-decoration: none;
-    color: #060408 ;
-    font-family: "Playfair Display" , serif;
-    letter-spacing: 5px;
-    font-size: 15px;
-  }
-  
-  nav .contact {
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-    color: #060408 ;
-    border: 3px solid #060408 ;
-    border-radius: 5px;
-    padding: 10px 15px;
-    font-weight: bold;
-  }
+nav .contact {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #060408 ;
+  border: 3px solid #060408 ;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
 
-  /* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
+/* ----- ----- ----- ----- ----- TABLE OF CONTENTS ----- ----- ----- ----- ----- */
+
+.table-of-contents {
+  background-color: #7851A9;
+  width: 250px;
+  min-height: 100vh;
+  padding: 50px 25px;
+}
+
+/* ----- ----- ----- ----- ----- PORTFOLIO SECTION ----- ----- ----- ----- ----- */
+
+.layout {
+  display: flex;
+}
+/* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
 
 /* #F8F6FB WHITE */
 /* #060408 BLACK */

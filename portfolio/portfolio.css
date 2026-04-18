@@ -113,6 +113,12 @@ nav .contact {
   text-align: center;
 }
 
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 25px;
+  padding: 50px;
+}
 
   /* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
 

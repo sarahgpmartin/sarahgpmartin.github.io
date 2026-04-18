@@ -64,7 +64,6 @@ nav .contact {
   font-weight: normal;
   font-size: 25px;
   color: #060408;
-  padding: 50px;
   text-align: center;
 }
 
@@ -115,7 +114,7 @@ nav .contact {
 
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   padding: 50px;
 }

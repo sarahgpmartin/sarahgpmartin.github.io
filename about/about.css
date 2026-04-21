@@ -60,10 +60,16 @@ nav .contact {
 /* ----- ----- ----- ----- ----- ABOUT SECTION ----- ----- ----- ----- ----- */
 
 #about {
-    background-color: #F8F6FB;
-    padding: 50px;
-    display: flex;
-    gap: 50px;
+background-color: #F8F6FB;
+ padding: 50px;
+ display: flex;
+ gap: 50px;
+}
+
+#about img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
 
 .about-section h1 {
@@ -75,7 +81,7 @@ nav .contact {
   color: #060408;
   text-align: left;
   margin: 0px;
-  width: 50%;
+  max-width: 600px;
 }
 
 .about-section h2 {
@@ -87,7 +93,7 @@ nav .contact {
   color: rgba(6, 4, 8, 0.5);
   text-align: left;
   margin: 0px;
-  width: 50%;
+  max-width: 600px;
 }
 
 .about-section p {
@@ -95,7 +101,7 @@ nav .contact {
   font-size: 15px;
   color: #060408;
   text-align: left;
-  width: 50%;
+  max-width: 600px;
 }
 
 
@@ -122,10 +128,11 @@ footer p {
 }
 
 footer .footer-info {
-    columns: 2;
-    display: flex;
-    column-gap: 25px;
-    padding: 25px 0px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  column-gap: 25px;
+  padding: 25px 0px;
 }
 
 footer ul, li, a {
@@ -142,9 +149,26 @@ footer .copyright {
     text-align: center;
 }
 
+/* ----- ----- ----- ----- ----- MOBILE ----- ----- ----- ----- ----- */
+
+
+@media (max-width: 600px) {
+
+  #about {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .about-section {
+    max-width: 100%;
+  }
+}
+
 /* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
 
 /* #F8F6FB WHITE */
+
 /* #060408 BLACK */
 
 /* #7851A9 ROYAL PURPLE */
@@ -153,5 +177,6 @@ footer .copyright {
 
 
 /* 3C2955 DARK ROYAL PURPLE */
+
 /* #BBA8D4 LIGHT ROYAL PURPLE */
 

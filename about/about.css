@@ -66,33 +66,36 @@ nav .contact {
     gap: 50px;
 }
 
-#about h1 {
-    font-family: "Playfair Display", serif;
-    font-size: 25px;
-    font-weight: bold;
-    font-style: normal;
+.about-section h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
 
-    color: #060408;
-    text-align: left;
-    margin: 0px;
+  color: #060408;
+  text-align: left;
+  margin: 0px;
+  width: 50%;
 }
 
-#about h2 {
-    font-family: "Playfair Display", serif;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: normal;
+.about-section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
 
-    color: rgba(6, 4, 8, 0.5);
-    text-align: left;
-    margin: 0px;
+  color: rgba(6, 4, 8, 0.5);
+  text-align: left;
+  margin: 0px;
+  width: 50%;
 }
 
-#about p {
-    font-family: "Playfair Display", serif;
-    font-size: 15px;
-    color: #060408;
-    text-align: left;
+.about-section p {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  color: #060408;
+  text-align: left;
+  width: 50%;
 }
 
 

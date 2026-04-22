@@ -61,15 +61,20 @@ nav .contact {
 
 .table-of-contents {
   background-color: #7851A9;
+  padding: 50px 25px;
   width: 250px;
   min-height: 100vh;
-  padding: 50px 25px;
+  height: 100%;
 }
 
 /* ----- ----- ----- ----- ----- PORTFOLIO SECTION ----- ----- ----- ----- ----- */
 
-.layout {
+.portfolio-layout {
   display: flex;
+}
+
+.heritage-hats {
+padding-top: 100px;
 }
 /* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
 

@@ -17,15 +17,14 @@ body {
   background-color: #7851A9;
   padding: 50px 25px;
   width: 250px;
-  min-height: 100vh;
-  height: 100%;
+  height: auto;
 }
 
 .table-of-contents a {
   font-size: 15px;
   font-weight: 100;
 
-  color: #F8F6FB;
+  color: rgba(248, 246, 251, 0.5);
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -46,7 +45,6 @@ body {
 .table-of-contents img {
   display: block;
   padding: 25px;
-
 }
 
 /* ----- ----- ----- ----- ----- PORTFOLIO SECTION ----- ----- ----- ----- ----- */
@@ -56,8 +54,45 @@ body {
 }
 
 .heritage-hats {
-padding: 50px;
+  padding: 50px;
+
 }
+
+.heritage-hats h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 1000;
+
+  color: #060408;
+  text-align: center;
+
+}
+
+.heritage-hats h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 1000;
+
+  color: #060408;
+  text-align: center;
+}
+
+.heritage-hats h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 100;
+
+  color: rgb(6, 4, 8, 0.5);
+  text-align: center;
+}
+
+.heritage-hats img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
 /* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
 
 /* #F8F6FB WHITE */

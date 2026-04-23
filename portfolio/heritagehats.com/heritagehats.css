@@ -17,7 +17,9 @@ body {
   background-color: #7851A9;
   padding: 50px 25px;
   width: 250px;
-  height: auto;
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
 }
 
 .table-of-contents a {
@@ -43,7 +45,7 @@ body {
 }
 
 .table-of-contents img {
-  display: block;
+  display: block; 
   padding: 25px;
 }
 
@@ -51,6 +53,12 @@ body {
 
 .portfolio-layout {
   display: flex;
+  align-items: flex-start;
+}
+
+.portfolio-section {
+  padding: 25px 0px;
+
 }
 
 .heritage-hats {
@@ -87,9 +95,21 @@ body {
 }
 
 .heritage-hats img {
-  display: block;
-  max-width: 100%;
+  max-width: 500px;
+  width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ----- ----- ----- ----- ----- BRAND GUIDE ----- ----- ----- ----- ----- */
+
+.brand-guide-section img {
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 50px auto;
 }
 
 

@@ -44,6 +44,13 @@ body {
   padding: 5px;
 }
 
+.navigation a {
+font-size: 15px;
+  font-weight: 1000;
+  color: #F8F6FB;
+  padding: 5px;
+}
+
 .table-of-contents img {
   display: block; 
   padding: 25px;
@@ -111,7 +118,6 @@ body {
   display: block;
   margin: 50px auto;
 }
-
 
 /* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
 

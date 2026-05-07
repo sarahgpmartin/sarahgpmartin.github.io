@@ -11,6 +11,10 @@ body {
   padding: 0;
 }
 
+hr {
+border-color: #7851A9;
+}
+
 /* ----- ----- ----- ----- ----- TABLE OF CONTENTS ----- ----- ----- ----- ----- */
 
 .table-of-contents {
@@ -122,12 +126,13 @@ font-size: 15px;
 /* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
 
 /* #F8F6FB WHITE */
+
 /* #060408 BLACK */
 
 /* #7851A9 ROYAL PURPLE */
 
 /* rgba(120, 81, 169, 0.5) 50% ROYAL PURPLE */
 
-
 /* 3C2955 DARK ROYAL PURPLE */
+
 /* #BBA8D4 LIGHT ROYAL PURPLE */

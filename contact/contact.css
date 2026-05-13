@@ -1,6 +1,21 @@
 
 /* ----- ----- ----- ----- ----- BODY SECTION ----- ----- ----- ----- ----- */
 
+:root {
+  --white: #F2F2F2;
+  --white-50: rgba(242, 242, 242, 0.5);
+
+  --black: #0D0D0D;
+  --black-50: rgba(13, 13, 13, 0.5);
+
+  --sage-purple: #B5A8B9;
+  --sage-purple-50: rgba(181, 168, 185, 0.5);
+
+  --sage-green: #9CAF88;
+  --sage-green-50: rgba(156, 175, 136, 0.5);
+
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,14 +23,14 @@ html {
 body {
   font-family: 'Playfair Display', serif;
   padding-top: 100px;
-  background-color: #F8F6FB;
+  background-color: var(--white);
   margin: 0;
 }
 
 /* ----- ----- ----- ----- ----- DESKTOP NAVIGATION SECTION ----- ----- ----- ----- ----- */
 
 nav {
-  background: #7851A9;
+  background: var(--sage-purple);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +56,7 @@ nav ul {
   
 nav a {
   text-decoration: none;
-  color: #F8F6FB;
+  color: var(--white);
   font-family: "Playfair Display" , serif;
   letter-spacing: 5px;
   font-size: 15px;
@@ -50,8 +65,8 @@ nav a {
 nav .contact {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: #F8F6FB;
-  border: 3px solid #F8F6FB;
+  color: var(--white);
+  border: 3px solid var(--white);
   border-radius: 5px;
   padding: 10px 15px;
   font-weight: bold;
@@ -67,7 +82,7 @@ nav .contact {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 25px;
-  color: #060408;
+  color: var(--black);
   text-align: center;
 }
 
@@ -75,14 +90,14 @@ nav .contact {
   font-family: "Playfair Display", serif;
   font-weight: normal;
   font-size: 20px;
-  color: #060408;
+  color: var(--black);
   text-align: center;
 }
 
 /* ----- ----- ----- ----- ----- FOOTER SECTION ----- ----- ----- ----- ----- */
 
 footer {
-    background-color: #7851A9;
+    background-color: var(--sage-purple);
     padding: 50px; 
   }
 
@@ -91,13 +106,13 @@ footer h1 {
     font-size: 15px;
     font-weight: bold;
     font-style: normal;
-    color: #F8F6FB;
+    color: var(--white);
 }
 
 footer p {
     font-family: "Playfair Display", serif;
     font-size: 15px;
-    color: #F8F6FB;
+    color: var(--white);
 }
 
 footer .footer-info {
@@ -110,7 +125,7 @@ footer .footer-info {
 footer ul, li, a {
     font-family: "Playfair Display", serif;
     font-size: 15px;
-    color: #F8F6FB;
+    color: var(--white);
     text-decoration: none;
 
     list-style: none;
@@ -120,19 +135,4 @@ footer ul, li, a {
 footer .copyright {
     text-align: center;
 }
-
-/* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
-
-/* #F8F6FB WHITE */
-
-/* #060408 BLACK */
-
-/* #7851A9 ROYAL PURPLE */
-
-/* rgba(120, 81, 169, 0.5) 50% ROYAL PURPLE */
-
-/* 3C2955 DARK ROYAL PURPLE */
-
-/* #BBA8D4 LIGHT ROYAL PURPLE */
-
 

@@ -1,12 +1,27 @@
 /* ----- ----- ----- ----- ----- BODY SECTION ----- ----- ----- ----- ----- */
 
+:root {
+  --white: #F2F2F2;
+  --white-50: rgba(242, 242, 242, 0.5);
+
+  --black: #0D0D0D;
+  --black-50: rgba(13, 13, 13, 0.5);
+
+  --sage-purple: #B5A8B9;
+  --sage-purple-50: rgba(181, 168, 185, 0.5);
+
+  --sage-green: #9CAF88;
+  --sage-green-50: rgba(156, 175, 136, 0.5);
+
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Playfair Display', serif;
-  background-color: #F8F6FB;
+  background-color: var(--white);
   margin: 0;
   padding: 0;
 }
@@ -64,7 +79,7 @@ nav {
   
   nav a {
     text-decoration: none;
-    color: #F8F6FB;
+    color: var(--white);
     font-family: "Playfair Display" , serif;
     letter-spacing: 5px;
     font-size: 15px;
@@ -73,24 +88,9 @@ nav {
   nav .contact {
     font-family: "Playfair Display", serif;
     font-weight: bold;
-    color: #F8F6FB;
-    border: 3px solid #F8F6FB;
+    color: var(--white);
+    border: 3px solid var(--white);
     border-radius: 5px;
     padding: 10px 15px;
     font-weight: bold;
   }
-
-/* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
-
-/* #F8F6FB WHITE */
-
-/* #060408 BLACK */
-
-/* #7851A9 ROYAL PURPLE */
-
-/* rgba(120, 81, 169, 0.5) 50% ROYAL PURPLE */
-
-/* 3C2955 DARK ROYAL PURPLE */
-
-/* #BBA8D4 LIGHT ROYAL PURPLE */
-

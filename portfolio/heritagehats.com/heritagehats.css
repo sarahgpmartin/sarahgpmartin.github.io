@@ -1,24 +1,39 @@
 /* ----- ----- ----- ----- ----- BODY SECTION ----- ----- ----- ----- ----- */
 
+:root {
+  --white: #F2F2F2;
+  --white-50: rgba(242, 242, 242, 0.5);
+
+  --black: #0D0D0D;
+  --black-50: rgba(13, 13, 13, 0.5);
+
+  --sage-purple: #B5A8B9;
+  --sage-purple-50: rgba(181, 168, 185, 0.5);
+
+  --sage-green: #9CAF88;
+  --sage-green-50: rgba(156, 175, 136, 0.5);
+
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Playfair Display', serif;
-  background-color: #F8F6FB;
+  background-color: var(--white);
   margin: 0;
   padding: 0;
 }
 
 hr {
-border-color: #7851A9;
+border-color: var(--sage-purple);
 }
 
 /* ----- ----- ----- ----- ----- TABLE OF CONTENTS ----- ----- ----- ----- ----- */
 
 .table-of-contents {
-  background-color: #7851A9;
+  background-color: var(--sage-purple);
   padding: 50px 25px;
   width: 250px;
   min-height: 100vh;
@@ -30,7 +45,7 @@ border-color: #7851A9;
   font-size: 15px;
   font-weight: 100;
 
-  color: rgba(248, 246, 251, 0.5);
+  color: var(--white-50);
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -44,14 +59,14 @@ border-color: #7851A9;
   font-size: 15px;
   font-weight: 1000;
 
-  color: #F8F6FB;
+  color: var(--white);
   padding: 5px;
 }
 
 .navigation a {
 font-size: 15px;
   font-weight: 1000;
-  color: #F8F6FB;
+  color: var(--white);
   padding: 5px;
 }
 
@@ -82,7 +97,7 @@ font-size: 15px;
   font-size: 50px;
   font-weight: 1000;
 
-  color: #060408;
+  color: var(--black);
   text-align: center;
 
 }
@@ -92,7 +107,7 @@ font-size: 15px;
   font-size: 25px;
   font-weight: 1000;
 
-  color: #060408;
+  color: var(--black);
   text-align: center;
 }
 
@@ -101,7 +116,7 @@ font-size: 15px;
   font-size: 25px;
   font-weight: 100;
 
-  color: rgb(6, 4, 8, 0.5);
+  color: var(--black-50);
   text-align: center;
 }
 
@@ -115,24 +130,82 @@ font-size: 15px;
 
 /* ----- ----- ----- ----- ----- BRAND GUIDE ----- ----- ----- ----- ----- */
 
+.brand-guide-section h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 100;
+
+  color: var(--black-50);
+  text-align: left;
+}
+
 .brand-guide-section img {
-  max-width: 900px;
   width: 100%;
   height: auto;
   display: block;
-  margin: 50px auto;
+  margin: 50px 0px;
+}
+
+/* ----- ----- ----- ----- ----- FONTS ----- ----- ----- ----- ----- */
+
+.brand-guide-section h4.primary-font {
+  font-family: 'Freehouse', serif;
+  font-size: 20px;
+  font-weight: 100;
+
+  color: var(--black);
+  text-align: left;
+}
+
+.brand-guide-section p.primary-font {
+font-family: "Freehouse", serif;
+  font-size: 15px;
+font-weight: 400;
+font-style: normal;
+
+  color: var(--black);
+  text-align: left;
+}
+
+.brand-guide-section h4.secondary-font {
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  font-weight: 100;
+
+  color: var(--black);
+  text-align: left;
+}
+
+.brand-guide-section p.secondary-font {
+  font-family: "Georgia", serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+
+  color: var(--black);
+  text-align: left;
 }
 
 /* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
 
-/* #F8F6FB WHITE */
+.brand-guide-section .palette {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
 
-/* #060408 BLACK */
+.brand-guide-section .color-card {
+    width: 150px;
+}
 
-/* #7851A9 ROYAL PURPLE */
+.brand-guide-section .color-swatch {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
 
-/* rgba(120, 81, 169, 0.5) 50% ROYAL PURPLE */
-
-/* 3C2955 DARK ROYAL PURPLE */
-
-/* #BBA8D4 LIGHT ROYAL PURPLE */
+.brand-guide-section .color-card p {
+    margin: 5px 0;
+    font-size: 15px;
+}

@@ -1,4 +1,4 @@
-/* ----- ----- ----- ----- ----- BODY SECTION ----- ----- ----- ----- ----- */
+/* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
 
 :root {
   --white: #F2F2F2;
@@ -15,12 +15,42 @@
 
 }
 
+/* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 1000;
+
+  color: var(--black);
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 1000;
+
+  color: var(--black);
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 1000;
+
+  color: var(--black-50);
+  text-align: center;
+}
+
+/* ----- ----- ----- ----- ----- BODY SECTION ----- ----- ----- ----- ----- */
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Playfair Display', serif;
   background-color: var(--white);
   margin: 0;
   padding: 0;
@@ -80,135 +110,43 @@ font-size: 15px;
 .portfolio-layout {
   display: flex;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .portfolio-section {
   padding: 25px 0px;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.heritage-hats {
-  padding: 50px;
+.desktop {
+    width: 500px;
+    height: 250px;
 
-}
+    overflow-y: scroll;
+    overflow-x: hidden;
 
-.heritage-hats h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 50px;
-  font-weight: 1000;
+    border: 5px solid #A5B18A;
 
-  color: var(--black);
-  text-align: center;
-
-}
-
-.heritage-hats h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 25px;
-  font-weight: 1000;
-
-  color: var(--black);
-  text-align: center;
-}
-
-.heritage-hats h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 25px;
-  font-weight: 100;
-
-  color: var(--black-50);
-  text-align: center;
-}
-
-.heritage-hats img {
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-iframe {
-justify-content: center;
-}
-/* ----- ----- ----- ----- ----- BRAND GUIDE ----- ----- ----- ----- ----- */
-
-.brand-guide-section h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 25px;
-  font-weight: 100;
-
-  color: var(--black-50);
-  text-align: left;
-}
-
-.brand-guide-section img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 50px 0px;
-}
-
-/* ----- ----- ----- ----- ----- FONTS ----- ----- ----- ----- ----- */
-
-.brand-guide-section h4.primary-font {
-  font-family: 'Freehouse', serif;
-  font-size: 20px;
-  font-weight: 100;
-
-  color: var(--black);
-  text-align: left;
-}
-
-.brand-guide-section p.primary-font {
-font-family: "Freehouse", serif;
-  font-size: 15px;
-font-weight: 400;
-font-style: normal;
-
-  color: var(--black);
-  text-align: left;
-}
-
-.brand-guide-section h4.secondary-font {
-  font-family: 'Georgia', serif;
-  font-size: 20px;
-  font-weight: 100;
-
-  color: var(--black);
-  text-align: left;
-}
-
-.brand-guide-section p.secondary-font {
-  font-family: "Georgia", serif;
-  font-size: 15px;
-  font-weight: 400;
-  font-style: normal;
-
-  color: var(--black);
-  text-align: left;
-}
-
-/* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
-
-.brand-guide-section .palette {
     display: flex;
-    gap: 25px;
-    flex-wrap: wrap;
+    flex-direction: column;
+
+    margin: 50px;
 }
 
-.brand-guide-section .color-card {
-    width: 150px;
-}
+.mobile {
+    width: 250px;
+    height: 500px;
 
-.brand-guide-section .color-swatch {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
+    overflow-y: scroll;
+    overflow-x: hidden;
 
-.brand-guide-section .color-card p {
-    margin: 5px 0;
-    font-size: 15px;
+    border: 5px solid #A5B18A;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 50px;
 }

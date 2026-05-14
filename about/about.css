@@ -1,5 +1,5 @@
 
-/* ----- ----- ----- ----- ----- BODY SECTION ----- ----- ----- ----- ----- */
+/* ----- ----- ----- ----- ----- COLORS ----- ----- ----- ----- ----- */
 
 :root {
   --white: #F2F2F2;
@@ -16,17 +16,51 @@
 
 }
 
+/* ----- ----- ----- ----- ----- FONTS ----- ----- ----- ----- ----- */
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 1000;
+
+  color: var(--black);
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 1000;
+
+  color: var(--black);
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 1000;
+
+  color: var(--black-50);
+  text-align: center;
+}
+
+/* ----- ----- ----- ----- ----- FILE ----- ----- ----- ----- ----- */
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Playfair Display', serif;
-  padding-top: 100px;
   background-color: var(--white);
   margin: 0;
+  padding: 0;
+  padding-top: 100px;
 }
 
+main {
+padding: 50px;
+}
 /* ----- ----- ----- ----- ----- DESKTOP NAVIGATION SECTION ----- ----- ----- ----- ----- */
 
 nav {
@@ -180,18 +214,3 @@ footer .copyright {
     max-width: 100%;
   }
 }
-
-/* ----- ----- ----- ----- ----- COLOR PALETTE ----- ----- ----- ----- ----- */
-
-/* #F8F6FB WHITE */
-
-/* #060408 BLACK */
-
-/* #7851A9 ROYAL PURPLE */
-
-/* rgba(120, 81, 169, 0.5) 50% ROYAL PURPLE */
-
-/* 3C2955 DARK ROYAL PURPLE */
-
-/* #BBA8D4 LIGHT ROYAL PURPLE */
-

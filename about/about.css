@@ -55,7 +55,7 @@ body {
   background-color: var(--white);
   margin: 0;
   padding: 0;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 main {
@@ -159,41 +159,54 @@ background-color: var(--white);
 
 footer {
     background-color: var(--sage-purple);
-    padding: 50px; 
-  }
+    padding: 50px;
+}
+
+footer .footer-info {
+    display: flex;
+    gap: 50px;
+    padding: 25px 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer .footer-info div {
+    text-align: left;
+}
 
 footer h1 {
     font-family: "Playfair Display", serif;
     font-size: 15px;
     font-weight: bold;
-    font-style: normal;
     color: var(--white);
+    text-align: left;
 }
 
 footer p {
     font-family: "Playfair Display", serif;
     font-size: 15px;
     color: var(--white);
+    text-align: left;
 }
 
-footer .footer-info {
-    columns: 2;
-    display: flex;
-    column-gap: 25px;
-    padding: 25px 0px;
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-footer ul, li, a {
+footer li {
+    margin-bottom: 5px;
+}
+
+footer a {
     font-family: "Playfair Display", serif;
     font-size: 15px;
     color: var(--white);
     text-decoration: none;
-
-    list-style: none;
-    padding: 0;
 }
 
-footer .copyright {
+footer .copyright p {
     text-align: center;
 }
 

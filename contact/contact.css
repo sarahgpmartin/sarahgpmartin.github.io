@@ -1,5 +1,5 @@
 
-/* ----- ----- ----- ----- ----- BODY SECTION ----- ----- ----- ----- ----- */
+/* ----- ----- ----- ----- ----- COLORS ----- ----- ----- ----- ----- */
 
 :root {
   --white: #F2F2F2;
@@ -16,15 +16,49 @@
 
 }
 
+/* ----- ----- ----- ----- ----- FONTS ----- ----- ----- ----- ----- */
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 1000;
+
+  color: var(--black);
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 1000;
+
+  color: var(--black);
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 1000;
+
+  color: var(--black-50);
+  text-align: center;
+}
+
+/* ----- ----- ----- ----- ----- FILE ----- ----- ----- ----- ----- */
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Playfair Display', serif;
-  padding-top: 100px;
   background-color: var(--white);
   margin: 0;
+  padding: 0;
+  padding-top: 150px;
+}
+
+main {
 }
 
 /* ----- ----- ----- ----- ----- DESKTOP NAVIGATION SECTION ----- ----- ----- ----- ----- */
@@ -98,41 +132,53 @@ nav .contact {
 
 footer {
     background-color: var(--sage-purple);
-    padding: 50px; 
-  }
+    padding: 50px;
+}
+
+footer .footer-info {
+    display: flex;
+    gap: 50px;
+    padding: 25px 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer .footer-info div {
+    text-align: left;
+}
 
 footer h1 {
     font-family: "Playfair Display", serif;
     font-size: 15px;
     font-weight: bold;
-    font-style: normal;
     color: var(--white);
+    text-align: left;
 }
 
 footer p {
     font-family: "Playfair Display", serif;
     font-size: 15px;
     color: var(--white);
+    text-align: left;
 }
 
-footer .footer-info {
-    columns: 2;
-    display: flex;
-    column-gap: 25px;
-    padding: 25px 0px;
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-footer ul, li, a {
+footer li {
+    margin-bottom: 5px;
+}
+
+footer a {
     font-family: "Playfair Display", serif;
     font-size: 15px;
     color: var(--white);
     text-decoration: none;
-
-    list-style: none;
-    padding: 0;
 }
 
-footer .copyright {
+footer .copyright p {
     text-align: center;
 }
-

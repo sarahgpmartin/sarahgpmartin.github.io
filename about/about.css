@@ -59,7 +59,6 @@ body {
 }
 
 main {
-padding: 50px;
 }
 /* ----- ----- ----- ----- ----- DESKTOP NAVIGATION SECTION ----- ----- ----- ----- ----- */
 
@@ -178,11 +177,10 @@ footer p {
 }
 
 footer .footer-info {
-  display: flex;
-  gap: 50px;
-  flex-wrap: wrap;
-  column-gap: 25px;
-  padding: 25px 0px;
+    columns: 2;
+    display: flex;
+    column-gap: 25px;
+    padding: 25px 0px;
 }
 
 footer ul, li, a {

@@ -13,6 +13,9 @@
   --sage-green: #9CAF88;
   --sage-green-50: rgba(156, 175, 136, 0.5);
 
+  --sage-brown: #967969;
+  --sage-brown-50: rgba(150, 121, 105, 0.5);
+
 }
 
 /* ----- ----- ----- ----- ----- FONTS ----- ----- ----- ----- ----- */
@@ -70,17 +73,6 @@ main {
   width: 100%;
   min-height: 100vh;
   position: relative;
-}
-
-.hero-logo-img {
-  width: clamp(150px, 30vw, 500px);
-  height: auto;
-}
-
-.hero-logo {
-  position: absolute;
-  bottom: 5%;
-  left: 5%;
 }
 
 /* ----- ----- ----- ----- ----- DESKTOP NAVIGATION SECTION ----- ----- ----- ----- ----- */
